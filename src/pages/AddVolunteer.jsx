@@ -29,6 +29,7 @@ const AddVolunteer = () => {
     if(noOfVolunteersNeeded < 1 ){
       return toast.error("No of volunteers can't be less than 1")
     }
+    
     const volunteerData = {
       thumbnail,
       title,
