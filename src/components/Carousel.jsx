@@ -31,6 +31,7 @@ const Carousel = () => {
       >
         <SwiperSlide>
           <div className="bg-slate-700 relative">
+
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <img
               className="rounded w-full h-screen object-cover"
@@ -59,6 +60,7 @@ const Carousel = () => {
             />
             
             <div className="absolute top-[50%] left-[50%] translate-x-[-50%]
+            
             translate-y-[-50%] text-center w-full bg-slate-100 py-5 bg-opacity-90">
               <h1 className="text-slate-700 text-[35px] md:text-[55px]">
               Volunteer for Change
