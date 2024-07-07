@@ -12,6 +12,7 @@ const UpdateVolunteer = () => {
   const { user } = useContext(AuthContext);
   const volunteer = useLoaderData();
   const navigate = useNavigate();
+
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     const form = e.target;
@@ -22,6 +23,7 @@ const UpdateVolunteer = () => {
     const location = form.location.value;
     const noOfVolunteersNeeded = form.noOfVolunteersNeeded.value;
     const description = form.description.value;
+    
     if(thumbnail === '' || title === '' || deadline === '' || category === '' || location === '' || noOfVolunteersNeeded === '' || description === ''){
       return toast.error("Input Can't be empty")
     }

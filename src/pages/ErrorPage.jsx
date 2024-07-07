@@ -37,6 +37,7 @@ const ErrorPage = () => {
 
               <span>Back to home</span>
             </button>
+            
             </Link>
           </div>
         </div>
