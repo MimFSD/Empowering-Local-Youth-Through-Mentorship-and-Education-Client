@@ -21,6 +21,7 @@ const AppliedPost = () => {
 
   return (
     <>
+    
       <div className="container m-auto pb-5 px-6">
         <div className="mt-10">
           <section className="bg-white dark:bg-gray-900">
