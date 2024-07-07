@@ -31,12 +31,11 @@ Explore the website [here](https://volunteer-e5e10.web.app/).
 - Tailwind CSS
 - Flowbite (Optional)
 
+
 ## Installation Steps
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/Zioun/Aid-Alliance.git
-    ```
+  
 2. Navigate to the project directory:
     ```sh
     cd folder-name
