@@ -38,6 +38,7 @@ const FooterBottom = () => {
               </Footer.LinkGroup>
             </div>
             <div>
+
               <Footer.Title title="Contact info" />
               <Footer.LinkGroup col>
                 <Footer.Link href="#"><div className="flex items-center gap-2"><span><MdOutlineEmail /></span> jionkhan0@gmail.com</div></Footer.Link>
@@ -45,6 +46,7 @@ const FooterBottom = () => {
               </Footer.LinkGroup>
             </div>
             <div>
+              
               <Footer.Title title="Legal" />
               <Footer.LinkGroup col>
                 <Footer.Link href="#">Privacy Policy</Footer.Link>
