@@ -39,6 +39,8 @@ const ManagePost = () => {
             `${import.meta.env.VITE_API_URL}/volunteers/${id}`
           );
           console.log("delete", data);
+
+
           // refresh ui
           getData();
           Swal.fire({
@@ -54,7 +56,8 @@ const ManagePost = () => {
     });
   };
 
-  // for volunteer request
+  
+// for volunteer request
   const [reqVolunteer, setReqVolunteer] = useState([]);
   useEffect(() => {
     reqgetData();
@@ -83,6 +86,7 @@ const ManagePost = () => {
           text: "Your file has been deleted.",
           icon: "success"
         });
+        
         try {
           const { data } = await axios.delete(
             `${import.meta.env.VITE_API_URL}/req-volunteer/${id}`
