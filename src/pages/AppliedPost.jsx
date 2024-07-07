@@ -21,7 +21,7 @@ const AppliedPost = () => {
 
   return (
     <>
-    
+
       <div className="container m-auto pb-5 px-6">
         <div className="mt-10">
           <section className="bg-white dark:bg-gray-900">
@@ -55,6 +55,7 @@ const AppliedPost = () => {
                     <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
                       <thead className="bg-gray-50 dark:bg-gray-800">
                         <tr>
+                          
                           <th
                             scope="col"
                             className="py-3.5 px-4 text-sm font-normal text-left rtl:text-right text-gray-500 dark:text-gray-400"

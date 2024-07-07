@@ -8,6 +8,7 @@ import { MdOutlineVolunteerActivism } from "react-icons/md";
 
 const Details = () => {
   const volunteer = useLoaderData();
+  
   const {
     _id,
     thumbnail,
