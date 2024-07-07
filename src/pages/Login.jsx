@@ -5,8 +5,11 @@ import { AuthContext } from "../provider/AuthProvider";
 import axios from "axios";
 const Login = () => {
   const location = useLocation()
+
+
   const navigate = useNavigate();
   const { signIn, signInWithGoogle, signInWithGithub, user, loading } = useContext(AuthContext);
+  
   useEffect(()=>{
     if(user){
       navigate('/')
