@@ -126,11 +126,7 @@ firebase init
 firebase deploy
 ```
 
----
 
-If you want, I can **write a small template React frontend with Firebase Auth & Firestore** ready to run **without the Node/MERN backend**. That way, you can fully replace your server with Firebase.
-
-Do you want me to do that?
 
 ## Contributing
 
